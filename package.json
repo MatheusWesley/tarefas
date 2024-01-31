@@ -1,0 +1,22 @@
+{
+  "name": "tarefas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "node --watch --no-warnings server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^16.4.1"
+  },
+  "dependencies": {
+    "fastify": "^4.26.0",
+    "postgres": "^3.4.3"
+  }
+}

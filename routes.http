@@ -1,0 +1,27 @@
+POST http://localhost:3000/tarefas
+Content-type: application/json
+
+{
+  "title": "Fazer bolo",
+  "description": "Ingredientes xyz",
+  "priority": "Baixa",
+  "status": "PENDENTE"
+}
+
+###
+GET http://localhost:3000/tarefas
+
+###
+PUT http://localhost:3000/tarefas/62f55639-1e7e-4a6e-9b96-5b89597f6226
+Content-type: application/json
+
+{
+  "title": "Comprar Biscoito",
+  "description": "Compra biscoito no supermercado x",
+  "priority": "Alta",
+  "status": "CONCLUIDO"
+}
+
+
+###
+DELETE http://localhost:3000/tarefas/13e094db-eac2-4a0a-bee5-63a186bb7999

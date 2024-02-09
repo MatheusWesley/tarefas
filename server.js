@@ -5,7 +5,6 @@ const server = fastify();
 const database = new DatabasePostgres();
 
 
-// DEFININDO AS ROTAS POST, GET, PUT, DELETE
 server.post('/tarefas', async (req, res) => {
   const {
     title,
